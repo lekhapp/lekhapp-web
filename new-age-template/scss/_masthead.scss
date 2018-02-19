@@ -11,7 +11,7 @@ header.masthead {
     background: url('../img/bg-pattern.png'), -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
     background: url('../img/bg-pattern.png'), linear-gradient(to left, $theme-secondary, $theme-tertiary);
     .header-content {
-        max-width: 500px;
+        max-width: 650px;
         margin-bottom: 100px;
 
         text-align: center;
@@ -20,7 +20,7 @@ header.masthead {
         }
     }
     .device-container {
-        max-width: 325px;
+        max-width: 650px;
         margin-right: auto;
         margin-left: auto;
         .screen img {
@@ -41,7 +41,7 @@ header.masthead {
             }
         }
         .device-container {
-            max-width: 325px;
+            max-width: 650px;
         }
     }
 }

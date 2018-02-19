@@ -1,7 +1,10 @@
 // Styling for the features section
 section.features {
+    table img {
+        width:120px;
+    }
     .section-heading {
-        margin-bottom: 100px;
+        margin-bottom: 50px;
         h2 {
             margin-top: 0;
         }
