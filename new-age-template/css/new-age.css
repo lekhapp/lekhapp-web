@@ -198,6 +198,26 @@ header.masthead .device-container .screen img {
   }
 }
 
+.badges .badge-link {
+  display: block;
+  margin-bottom: 25px;
+}
+
+.badges .badge-link:last-child {
+  margin-bottom: 0;
+}
+
+.badges .badge-link img {
+  height: 60px;
+}
+
+@media (min-width: 768px) {
+  .badges .badge-link {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+}
+
 section.download {
   position: relative;
   padding: 150px 0;
@@ -232,6 +252,24 @@ section.download .badges .badge-link img {
   section.download h2 {
     font-size: 70px;
   }
+}
+
+section.demo {
+  position: relative;
+  padding: 50px 0;
+}
+
+section.demo .section-heading {
+  margin-bottom: 100px;
+}
+
+section.demo .section-heading h2 {
+  margin-top: 0;
+  font-size: 50px;
+}
+
+section.demo .section-heading p {
+  margin-bottom: 0;
 }
 
 section.features .section-heading {

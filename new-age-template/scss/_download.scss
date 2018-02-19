@@ -1,4 +1,21 @@
 // Styling for the download section
+    .badges {
+        .badge-link {
+            display: block;
+            margin-bottom: 25px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            img {
+                height: 60px;
+            }
+            @media(min-width: 768px) {
+                display: inline-block;
+                margin-bottom: 0;
+            }
+        }
+    }
+
 section.download {
     position: relative;
     padding: 150px 0;

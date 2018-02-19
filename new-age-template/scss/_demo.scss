@@ -1,0 +1,16 @@
+// Styling for the demo section
+
+section.demo {
+    position: relative;
+    padding: 50px 0;
+    .section-heading {
+        margin-bottom: 100px;
+        h2 {
+            margin-top: 0;
+            font-size: 50px;
+        }
+        p {
+            margin-bottom: 0;
+        }
+    }
+}
